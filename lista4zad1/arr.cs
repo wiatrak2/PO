@@ -83,6 +83,7 @@ namespace ArrayLib
             this.current_pos.next = pushed;
             pushed.prev = this.current_pos;
             this.l_elem ++;
+            this.size ++;
         }
         
         public Array(int start, int end)
